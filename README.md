@@ -4,9 +4,9 @@
 
 Submitted by: Al Shafian Bari 
 
-Time spent: 5 hours spent in total
+Time spent: 8 hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: (https://glitch.com/edit/#!/open-like-train?path=script.js%3A34%3A11)
 
 ## Required Functionality
 
@@ -23,12 +23,12 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 
 * [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [ ] More than 4 functional game buttons
+* [x] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [x] More than 4 functional game buttons
 * [ ] Playback speeds up on each turn
 * [ ] Computer picks a different pattern each time the game is played
 * [ ] Player only loses after 3 mistakes (instead of on the first mistake)
-* [ ] Game button appearance change goes beyond color (e.g. add an image)
+* [x] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
 
@@ -39,34 +39,42 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
+
+Required Functions: 1,3,4,5,6. Optional Functions: 1,2,3,7
+![](https://i.imgur.com/93JJx0F.gif)
+
+
+Required Functions 2,7 
+
+![](https://i.imgur.com/LOkWtYH.gif)
+
+
+
 ![](gif4-link-here)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
-I used no outside resources.
+webite: 
+https://www.w3schools.com/html/html_images_background.asp
+https://www.youtube.com/watch?v=33IinMVJf-M
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
-One challege I encounted was getting the game to play muitlple clues. When I ran the game it would only play one clue and end. 
-I overcame this probelm by looking at my code in the script.js file. I saw that I had two functions called guess and some code that did not belong there. 
-When I cleaned up that section and tested it, it ran with mmulitpe clues.
+One challenge I encountered was getting the game to play multiple clues. When I ran the game it would only play one clue and end. I overcame this problem by looking at my code in the script.js file. I started from top to bottom looking if I missed any brackets or braces. I was missing two in different places but after fixing that syntax error it still would only run once. So I started going more down in the script.js file and looking at every loop. I saw that I had two functions called guess and some code that did not belong there. When I cleaned up that section and tested it, it ran with multiple clues. Another challenge I faced was getting an image to pop up when the button is being clicked. I tried importing the images and linking them to the button in html file but it did not work. After doing some research I saw I had to put background-image: url(link); in the style.css file. I put this line in between each of the button's codes when it's being clicked. Next, I added an image to test it and it worked. 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 
-
+Some questions I have about web development after completing my submission is would I need to create a new html file if I wanted to make new page or a sub-page when clicking on a button? Would the style.css file would be conncted to all the new pages or just one page? Is there a specifc set of space given on the screen for the website? 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
 
+If I had a few more hours to work on this project I would try adding a scoreboard. For example, the game would count how many buttons you would get correct in a row before losing. Then there would be an area where it would tell you your score during that game. Also, an area to keep your high score on the screen. I would have also tried adding an action when the user won the game. For example instead of just "you win" screen, confetti would pop out plus the screen saying "you won". 
 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://ccny.zoom.us/rec/share/vXtGQvBtVw0REXVJ0ml7bMf_epUAEID6VGT6PFbCQSDHdIT7LHblLyXUHWZyodgV.EX2knpixGIOuzk8z?startTime=1647197898000)
 
 
 ## License
