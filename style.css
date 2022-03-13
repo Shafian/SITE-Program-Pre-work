@@ -3,8 +3,9 @@
 body {
   font-family: helvetica, arial, sans-serif; 
   margin: 2em;
-  background-color: slategrey;
-    color: white; 
+  background-color: Salmon;
+    color: lightgreen; 
+  
 }
 
 h1 {
@@ -34,18 +35,33 @@ border-radius: 10px;
     background: pink;
 }
 #button4 {
+    background: lightblue;
+}
+#button5 {
+    background: lightgreen;
+}
+#button6 {
     background: lightyellow;
 }
-#button1:active, #button1.lit{
-    background:lightgreen;
+
+
+#button1:active, 
+#button1.lit {
+  background-image: url(https://cdn.glitch.global/8bd78ab7-0687-4a4b-8331-583712df0195/istockphoto-1062126906-612x612.jpg?v=1646671368025);
 }
 #button2:active, #button2.lit{
-    background:lightblue;
+    background-image: url(https://cdn.glitch.global/8bd78ab7-0687-4a4b-8331-583712df0195/download.png?v=1646670314499);
 }
 #button3:active, #button3.lit {
-    background:cyan;
+   background-image: url(https://cdn.glitch.global/8bd78ab7-0687-4a4b-8331-583712df0195/download.jpg?v=1646670226417);
 }
 #button4:active, #button4.lit {
-    background:yellow;
+    background-image: url(https://cdn.glitch.global/8bd78ab7-0687-4a4b-8331-583712df0195/images.jpg?v=1646631273157);
+}
+#button5:active, #button5.lit {
+    background-image: url(https://cdn.glitch.global/8bd78ab7-0687-4a4b-8331-583712df0195/download-1.jpg?v=1646670380460);
+}
+#button6:active, #button6.lit {
+    background-image: url(https://cdn.glitch.global/8bd78ab7-0687-4a4b-8331-583712df0195/images.jpg?v=1646670563179);
 }
 
