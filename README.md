@@ -55,7 +55,7 @@ Required Functions 2,7
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
-webite: 
+webites: 
 https://www.w3schools.com/html/html_images_background.asp
 
 https://www.youtube.com/watch?v=33IinMVJf-M
