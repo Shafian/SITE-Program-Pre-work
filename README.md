@@ -57,6 +57,7 @@ Required Functions 2,7
 
 webite: 
 https://www.w3schools.com/html/html_images_background.asp
+
 https://www.youtube.com/watch?v=33IinMVJf-M
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
