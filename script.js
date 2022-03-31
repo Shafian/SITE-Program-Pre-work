@@ -2,19 +2,31 @@
 const clueHoldTime = 1000; //how long to hold each clue's light/sound
 const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
+const len = 6;
 //Global Variables
-var pattern = [6, 2, 3, 4, 3, 2, 1, 5, ];
+var pattern = [1,3,2,6,4,5,];
 var progress = 0; 
 var gamePlaying = false;
 var tonePlaying= false;
 var volume = 0.5;  //must be between 0.0 and 1.0
 var guessCounter = 0;
+let timer = null; //for setInterval
+var count = 20;
+var reset = false;
 
+
+function generatePattern() {
+  //Generate an array of 8 random numbers
+  for (let j = 0; j < len; j++) {
+    pattern[j] = Math.ceil(Math.random() * 6);
+  }
+}
 
 function startGame(){
     //initialize game variables
     progress = 0;
     gamePlaying = true;
+     generatePattern();
 document.getElementById("startBtn").classList.add("hidden");
 document.getElementById("stopBtn").classList.remove("hidden");
 
@@ -95,8 +107,9 @@ function playClueSequence(){
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
     delay += clueHoldTime 
     delay += cluePauseTime;
-    
   }
+   clueHoldTime -= 100;
+  reset = false;
 }
 function loseGame(){
   stopGame();
