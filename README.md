@@ -27,7 +27,7 @@ The following **optional** features are implemented:
 * [x] More than 4 functional game buttons
 * [x] Playback speeds up on each turn
 * [x] Computer picks a different pattern each time the game is played
-* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [x] Player only loses after 3 mistakes (instead of on the first mistake)
 * [x] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-Required Functions: 1,3,4,5,6. Optional Functions: 1,2,3,7
+Required Functions: 1,3,4,5,6. Optional Functions: 1,2,3,4,7
 ![](https://i.imgur.com/93JJx0F.gif)
 
 
@@ -49,8 +49,9 @@ Required Functions 2,7
 ![](https://i.imgur.com/LOkWtYH.gif)
 
 
+Optional Functions: 6
 
-![](gif4-link-here)
+![](https://i.imgur.com/7MbVBF7.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
